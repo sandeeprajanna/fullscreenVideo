@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <title>Full screen video background</title>
+</head>
+<body>
+    <div class="videoBgWrapper">
+        <video loop muted autoplay poster="./assets/Run_5_wo_metadata_h264420_720p_UHQ.mp4" class="videoBg">
+            <source src="./assets/Run_5_wo_metadata_h264420_720p_UHQ.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="secondSection">
+        <section class="videoParent">
+            <video loop preload autoplay>
+                <source id="source_polar_mp4"
+                    src="https://d2pxo8g26zv991.cloudfront.net/wp-content/uploads/2014/10/HomeVideo_v04_1.mp4"
+                    type="video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                <source id="source_polar_webm"
+                    src="https://d2pxo8g26zv991.cloudfront.net/wp-content/uploads/2014/10/HomeVideo_v04_1.webm"
+                    type="video/webm;codecs=&quot;vp8, vorbis&quot;">
+            </video>
+        </section>
+    </div>
+</body>
+</html>
